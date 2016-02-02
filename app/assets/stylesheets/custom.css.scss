@@ -15,27 +15,28 @@
   }
 }
 
-.center {
-  text-align: center;
+.homepage {
+  background-image: asset-url('img6.jpg');
 }
 
-.jumbotron {
-  height: 700px;
-  background-size: cover;
-  background-image: asset-url('img1.jpg');
+
+.center {
+  text-align: center;
+  height: 630px;
   
   h1 {
     color: #fff;
     text-align: center;
-    margin-bottom: 30px;
+    margin: 175px 0 30px 0;
     font-weight: bold;
-  }
+  }  
 }
 
 footer {
+  margin-top: 45px;
   padding-top: 5px;
   border-top: 1px solid #eaeaea;
-  color: #777;
+  // color: #fff;
   
   small {
     float: left;
@@ -51,3 +52,5 @@ footer {
     }
   }
 }
+
+
