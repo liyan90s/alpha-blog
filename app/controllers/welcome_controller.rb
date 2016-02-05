@@ -2,7 +2,7 @@ class WelcomeController < ApplicationController
   layout :set_layout
   
   def home
-    
+    redirect_to articles_path if logged_in?
   end
   
   def about
